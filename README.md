@@ -1,4 +1,4 @@
-!Descripción de la imagen
+![Steam 1](https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/51226b14-e84b-41e9-879b-7597fa4caa7d)
 
 Proyecto Steam: Análisis y Recomendación de Juegos
 Introducción
