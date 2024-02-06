@@ -1,7 +1,7 @@
-![Purple Sky Profile Header](https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/59b1396f-f12f-45d2-8af4-9bbd24b33c39)
+  ![Purple Sky Profile Header](https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/59b1396f-f12f-45d2-8af4-9bbd24b33c39)
 
 
-![Steam 1](https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/51226b14-e84b-41e9-879b-7597fa4caa7d)
+  ![Steam 1](https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/51226b14-e84b-41e9-879b-7597fa4caa7d)
 
 Proyecto Steam: Análisis y Recomendación de Juegos
 Introducción
