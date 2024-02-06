@@ -4,7 +4,6 @@
 </p>
 
 
-  ![Steam 1](https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/51226b14-e84b-41e9-879b-7597fa4caa7d)
 
 Proyecto Steam: Análisis y Recomendación de Juegos
 Introducción
@@ -16,6 +15,10 @@ Contexto
 Steam, creada por Valve Corporation, es una plataforma líder en la distribución digital de videojuegos. Desde su lanzamiento en septiembre de 2003, ha evolucionado para incluir no solo los juegos de Valve, sino también títulos de terceros. Con más de 325 millones de usuarios y un catálogo de más de 25,000 juegos, Steam es un referente en la industria.
 
 Es relevante mencionar que las estadísticas disponibles hasta 2017 provienen de SteamSpy, ya que en 2018 Steam modificó la forma de obtener datos, lo que afectó la precisión de las cifras.
+
+<p align="center">
+  <img src="https://github.com/Jeisz/Proyecto-Final-01-Soy-Henry-/assets/128953226/51226b14-e84b-41e9-879b-7597fa4caa7d" alt="Steam 1"/>
+</p>
 
 Datos
 Para este proyecto, contamos con tres archivos JSON:
