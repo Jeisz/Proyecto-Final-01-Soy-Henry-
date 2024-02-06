@@ -1,3 +1,5 @@
+!Descripción de la imagen
+
 Proyecto Steam: Análisis y Recomendación de Juegos
 Introducción
 Este emocionante proyecto simula el papel de un MLOps Engineer, fusionando las habilidades de un Data Engineer y un Data Scientist, todo ello en el contexto de la plataforma multinacional de videojuegos Steam. Nuestro objetivo es desarrollar un Producto Mínimo Viable (PMV) que ofrezca una API implementada en la nube y aplique dos modelos de Machine Learning:
