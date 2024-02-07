@@ -13,7 +13,7 @@ def read_root():
         "Hola": "¡Bienvenido a mi Proyecto de   Individual  y presentación de endpints",
         "Te invito a": "Proyecto FastAPI - Sistema de Recomendaciones.",
         "Autor_proyecto": {
-            "DataScientist": "Jeison Zapata0",
+            "DataScientist": "Jeison Zapata2",
             "Mensaje": "Proyecto Individual N° 1 Soy Henry "
         },
 
@@ -21,7 +21,7 @@ def read_root():
 @app.get("/developer/{desarrollador}")
 
 def developer(desarrollador):
-    df = pd.read_parquet('funcion_desarrollador')
+    df = pd.read_parquet('./Notebooks/funcion_desarrollador')
     # Filtra el dataframe por desarrollador de interés
     data_filtrada = df[df['developer'] == desarrollador]
     # Calcula la cantidad de items por año
@@ -43,10 +43,10 @@ def developer(desarrollador):
 
 def userdata(user_id):
     #Cargar df formato parquet
-    df_reviews = pd.read_parquet('df_reviews_1.parquet')
-    df_gastos_items = pd.read_parquet('df_gastos_items.parquet')   
-    df_genre_ranking = pd.read_parquet('df_genre_ranking.parquet')
-    df_playtime_forever = pd.read_parquet('df_playtime_forever.parquet')   
+    df_reviews = pd.read_parquet('./Datasets/df_reviews_1.parquet')
+    df_gastos_items = pd.read_parquet('./Datasets/df_gastos_items.parquet')   
+    df_genre_ranking = pd.read_parquet('./Datasets/df_genre_ranking.parquet')
+    df_playtime_forever = pd.read_parquet('./Datasets/df_playtime_forever.parquet')   
 
     try:
         # Filtra por el usuario de interés
@@ -83,7 +83,7 @@ def userdata(user_id):
 
 def genre(genero):
 
-    df_genre_ranking = pd.read_parquet('df_genre_ranking.parquet')
+    df_genre_ranking = pd.read_parquet('./Datasets/df_genre_ranking.parquet')
     
     try:
         # Busca el ranking para el género de interés
@@ -100,7 +100,7 @@ def userforgenre(genero):
     Esta función devuelve el top 5 de usuarios con más horas de juego en un género específico, junto con su URL de perfil y ID de usuario.
    l' (str): URL del perfil del usuario.
     '''
-    df_playtime_forever = pd.read_parquet('df_playtime_forever.parquet')
+    df_playtime_forever = pd.read_parquet('./Datasets/df_playtime_forever.parquet')
     
     # Filtra el dataframe por el género de interés
     data_por_genero = df_playtime_forever[df_playtime_forever['genres'].str.contains(genero)]
@@ -128,7 +128,7 @@ def userforgenre(genero):
 
 def obtener_top_desarrolladores(df_playtime_forever, year):
 
-    df_playtime_forever = pd.read_parquet('df_playtime_forever.parquet')
+    df_playtime_forever = pd.read_parquet('./Datasets/df_playtime_forever.parquet')
 
     # Filtrar las reseñas con comentarios positivos y recomendaciones verdaderas
     filtered_df = df_playtime_forever[df_playtime_forever['playtime_horas'] > 0]
@@ -148,5 +148,5 @@ def obtener_top_desarrolladores(df_playtime_forever, year):
     return result
 
 def best_developer_year(year):
-    df_playtime_forever = pd.read_parquet('df_playtime_forever.parquet')
+    df_playtime_forever = pd.read_parquet('./Datasets/df_playtime_forever.parquet')
     return obtener_top_desarrolladores(df_playtime_forever, year)
